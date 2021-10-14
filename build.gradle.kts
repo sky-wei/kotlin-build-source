@@ -16,6 +16,7 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation("org.freemarker:freemarker:2.3.31")
     implementation(project(":annotations"))
+    implementation(project(":core"))
     kapt(project(":compiler"))
 }
 

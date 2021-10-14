@@ -6,5 +6,7 @@ package com.sky.build.annotations
 @Retention(AnnotationRetention.SOURCE)
 @Target(AnnotationTarget.CLASS)
 annotation class AGenerate(
-    val name: String
+    val name: String = "",
+    val debug: Boolean = false,
+    val desc: String = ""
 )
