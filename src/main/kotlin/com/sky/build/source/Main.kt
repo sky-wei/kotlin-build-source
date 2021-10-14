@@ -29,7 +29,7 @@ fun main() {
     // 第六步：创建一个Writer对象，一般创建一FileWriter对象，指定生成的文件名。
     val out = FileWriter(File("XResult.kt"))
     // 第七步：调用模板对象的process方法输出文件。
-    template.process(dataModel, out);
+    template.process(dataModel, out)
     // 第八步：关闭流。
     out.close();
 }
