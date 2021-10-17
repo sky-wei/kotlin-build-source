@@ -1,4 +1,4 @@
-package ${project.packageName}
+package ${project.packageName}.data.model
 
 /**
  * Created by ${project.author} on ${project.time}.

@@ -54,4 +54,8 @@ abstract class BaseGenerate(
             writer.close()
         }
     }
+
+    fun appendPackageName(name: String): String {
+        return "${project.packageName}.${name}"
+    }
 }
