@@ -9,5 +9,6 @@ data class AGenerateInfo(
     val name: String,
     val debug: Boolean,
     val desc: String,
+    val group: String,
     val generateClass: Class<out XGenerate>
 )

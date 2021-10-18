@@ -56,6 +56,7 @@ class GenerateAnnotationHandler(
             aGenerate.name,
             aGenerate.debug,
             aGenerate.desc,
+            aGenerate.group,
             className
         )
     }

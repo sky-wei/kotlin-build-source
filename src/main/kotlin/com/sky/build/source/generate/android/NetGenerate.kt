@@ -2,12 +2,13 @@ package com.sky.build.source.generate.android
 
 import com.sky.build.annotations.AGenerate
 import com.sky.build.core.interfaces.XGenerateManager
+import com.sky.build.source.XConstant
 import com.sky.build.source.base.BaseGenerate
 
 /**
  * Created by sky on 2021/10/17.
  */
-@AGenerate(name = "Net")
+@AGenerate(name = "Net", group = XConstant.Group.ANDROID)
 class NetGenerate(
     generateManager: XGenerateManager
 ) : BaseGenerate(generateManager) {

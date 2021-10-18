@@ -31,9 +31,10 @@ class GenerateStore(
             )
         for (info in aGenerateInfos) {
             builder.addStatement(
-                "list.add(new \$T(\$S, \$L, \$S, \$T.class))",
+                "list.add(new \$T(\$S, \$L, \$S, \$S, \$T.class))",
                 generateInfoClassName,
-                info.name, info.debug, info.desc, className(info.generateClass)
+                info.name, info.debug, info.desc, info.group,
+                className(info.generateClass)
             )
         }
         builder.addStatement("return list").build()

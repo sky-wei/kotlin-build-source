@@ -8,5 +8,6 @@ package com.sky.build.annotations
 annotation class AGenerate(
     val name: String = "",
     val debug: Boolean = false,
-    val desc: String = ""
+    val desc: String = "",
+    val group: String = ""
 )
